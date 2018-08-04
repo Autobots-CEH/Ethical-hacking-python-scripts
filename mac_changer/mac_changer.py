@@ -6,6 +6,13 @@ import subprocess
 import optparse
 import re
 
+# EXPLANATION
+# MAC Address or MEDIA ACCESS CONTROL
+# Is Permanent, physical and unique
+# Used within the network to identify devices and transfer data within devices
+# Each packet of data contains a source mac and destination mac
+# Allow impersonation of device and hide identity
+
 def get_arguments():
     # Create parser object to handle user input
     parser = optparse.OptionParser()

@@ -3,6 +3,10 @@
 import scapy.all as scapy
 import argparse
 
+# ARP = Address resolution protocol
+# Used for clients mapping an Internet protocol IP address
+# Discover devices on network and display IP address and mac address
+
 def get_arguments():
     parser = argparse.ArgumentParser()
 
